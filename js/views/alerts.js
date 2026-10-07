@@ -1,0 +1,2 @@
+// หน้า: แจ้งเตือน
+function alerts(){return `<div class="acts"><button class="btn" id="clear">ล้างทั้งหมด</button></div>`+(A.length?A.map(a=>`<div class="al ${a.sev}"><div><b>${a.msg}</b><br><span class="sub">${clk(a.t)}</span></div><button class="btn" data-d="${a.key}">รับทราบ</button></div>`).join(''):'<p class="sub">ไม่มีแจ้งเตือน ทุกอย่างปกติ ระบบจะแจ้งเมื่อน้ำซุปเหลือน้อย เตาร้อนผิดปกติ หรือลูกค้าเรียกพนักงาน</p>')}

@@ -1,0 +1,5 @@
+/* สีและธีม: ตั้งค่าด้วย data-theme="light" | "dark" บน <html> (js/nav.js เป็นคนสลับ) */
+:root,:root[data-theme="light"]{--bg:#eef1f2;--surf:#fff;--ink:#16202a;--mute:#5c6975;--line:#c3ced5;--soft:#e6ecef;--accent:#0f5e6e;--on-accent:#fff;--ember:#e8531f;--ok:#1f9d6b;--warn:#d98a00;--bad:#d62f3f;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="dark"]{--bg:#0f1519;--surf:#182128;--ink:#e8eef2;--mute:#9aa8b3;--line:#3b4a56;--soft:#202c34;--accent:#4fb8cc;--on-accent:#06222a;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
